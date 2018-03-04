@@ -9,7 +9,7 @@
     "headline": "{{ .Title }} - {{ .Site.Title }}",
     "image": {
       "@type": "ImageObject",
-      "url": "{{ .Site.BaseURL }}{{ .Params.thumbnail | default "images/default.png" }}",
+      "url": "{{ .Site.BaseURL }}{{ .Params.thumbnail | default "images/default.jpg" }}",
       "height": 800,
       "width": 800
     },
@@ -24,7 +24,7 @@
       "name": "{{ .Site.Title }}",
       "logo": {
         "@type": "ImageObject",
-        "url": "{{ .Site.BaseURL }}images/logo.png",
+        "url": "{{ .Site.BaseURL }}images/logo.jpg",
         "width": 600,
         "height": 60
       }

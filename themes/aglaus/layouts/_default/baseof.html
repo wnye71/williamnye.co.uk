@@ -18,6 +18,7 @@
 
       {{ range where .Site.Pages ".Params.thumbnail" "!=" nil }} .article-{{ .Source.Path | md5 }} .thumbnail { background-image: url({{ $.Site.BaseURL }}{{ .Params.thumbnail }});  } {{ end }}
     </style>
+    {{ partial "person_json_ld.html" . }}
   </head>
 
   <body>
@@ -60,8 +61,6 @@
         <p>{{ with .Site.Copyright }}{{ . | safeHTML }}{{ else }}<span class="h-logo">&copy; {{ .Site.Title }}</span>{{ end }}</p>
       </div>
     </footer>
-
-    <a href="#" class="p-movetop" rel="nofollow"></a>
   </body>
 </html>
 

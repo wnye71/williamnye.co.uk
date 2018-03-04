@@ -2,3 +2,5 @@ baseURL = "https://www.williamnye.co.uk/"
 languageCode = "en-gb"
 title = "Will Nye - The SEO Guy"
 theme = "aglaus"
+
+[params]
