@@ -2,7 +2,7 @@
 title: "Parsing Logs for SEO Analysis Using Windows CMD Line"
 date: "2016-03-02"
 categories: ["Technical"]
-thumbnail: "/thumbs/logs-blog-thumb.jpg"
+thumbnail: "thumbs/logs-blog-thumb.jpg"
 
 ---
 
