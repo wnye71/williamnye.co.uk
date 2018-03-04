@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Technical on Will Nye - The SEO Guy</title>
+    <link>https://www.williamnye.co.uk/categories/technical/</link>
+    <description>Recent content in Technical on Will Nye - The SEO Guy</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Sat, 03 Mar 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.williamnye.co.uk/categories/technical/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Extracting Search Engine Hits from Log Files</title>
+      <link>https://www.williamnye.co.uk/extracting-search-engine-hits-from-log-files/</link>
+      <pubDate>Sat, 03 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.williamnye.co.uk/extracting-search-engine-hits-from-log-files/</guid>
+      <description>This page describes some ways to extract search engine hits from a websites log files.
+Extracting Hits from Apache Log Files To extract just the Googlebot hits on the site using the GNU/Linux terminal, try this:
+grep &#39;Googlebot\/&#39; access.log &amp;gt; googlebot_access.log
+That will write the Googlebot hits to a new logfile called googlebot_access.log.
+You can also pipe that output into another command, for example to extract only the URLs that Googlebot is requesting:</description>
+    </item>
+    
+    <item>
+      <title>Parsing Logs for SEO Analysis Using Windows CMD Line</title>
+      <link>https://www.williamnye.co.uk/parsing-logs-seo-analysis-using-windows-cmd-line/</link>
+      <pubDate>Wed, 02 Mar 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.williamnye.co.uk/parsing-logs-seo-analysis-using-windows-cmd-line/</guid>
+      <description>Using log files for SEO analysis is a great way to uncover issues that you may have otherwise missed. This is because, unlike third party spiders, they allow you to see exactly how Googlebot is crawling a site.
+If you’re an SEO professional looking to carry out your own log file analysis, then the chances are you’ll have to request the files through your own, or your clients, dev team.</description>
+    </item>
+    
+  </channel>
+</rss>

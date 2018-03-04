@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html ⚡>
+  <head>
+    <meta charset="utf-8">
+<meta name="pinterest" content="nopin">
+<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+<meta name="theme-color" content="#263238">
+
+<meta name="generator" content="Hugo 0.37" />
+
+<link rel="apple-touch-icon" href="https://www.williamnye.co.uk/images/logo.png">
+
+
+<link rel="canonical" href="https://www.williamnye.co.uk/extracting-search-engine-hits-from-log-files/">
+
+
+    
+    <link href="https://fonts.googleapis.com/css?family=Lobster|Lato:400,700" rel="stylesheet">
+    
+    <title>Extracting Search Engine Hits from Log Files - Will Nye - The SEO Guy</title>
+    <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+    
+    
+    
+<meta name="description" content="This page describes some ways to extract search engine hits from a websites log files.Extracting Hits from Apache Log Files To extract just the Googlebot hits on the site using the GNU/Linux terminal, try this:grep &#39;Googlebot\/&#39; access.log &amp;gt; googlebot_access.logThat will write the Googlebot hits to a new logfile called googlebot_access.log.You can also pipe that output into another command, for example to extract only the URLs that Googlebot is requesting:">
+
+<meta property="og:title" content="Extracting Search Engine Hits from Log Files - Will Nye - The SEO Guy">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://www.williamnye.co.uk/extracting-search-engine-hits-from-log-files/">
+<meta property="og:image" content="https://www.williamnye.co.uk/images/default.png">
+<meta property="og:site_name" content="Will Nye - The SEO Guy">
+<meta property="og:description" content="This page describes some ways to extract search engine hits from a websites log files.Extracting Hits from Apache Log Files To extract just the Googlebot hits on the site using the GNU/Linux terminal, try this:grep &#39;Googlebot\/&#39; access.log &amp;gt; googlebot_access.logThat will write the Googlebot hits to a new logfile called googlebot_access.log.You can also pipe that output into another command, for example to extract only the URLs that Googlebot is requesting:">
+<meta property="og:locale" content="ja_JP">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="Will Nye - The SEO Guy">
+<meta name="twitter:url" content="https://www.williamnye.co.uk/extracting-search-engine-hits-from-log-files/">
+<meta name="twitter:title" content="Extracting Search Engine Hits from Log Files - Will Nye - The SEO Guy">
+<meta name="twitter:description" content="This page describes some ways to extract search engine hits from a websites log files.Extracting Hits from Apache Log Files To extract just the Googlebot hits on the site using the GNU/Linux terminal, try this:grep &#39;Googlebot\/&#39; access.log &amp;gt; googlebot_access.logThat will write the Googlebot hits to a new logfile called googlebot_access.log.You can also pipe that output into another command, for example to extract only the URLs that Googlebot is requesting:">
+<meta name="twitter:image" content="https://www.williamnye.co.uk/images/default.png">
+
+
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "NewsArticle",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id":"https://www.williamnye.co.uk/"
+    },
+    "headline": "Extracting Search Engine Hits from Log Files - Will Nye - The SEO Guy",
+    "image": {
+      "@type": "ImageObject",
+      "url": "https://www.williamnye.co.uk/images/default.png",
+      "height": 800,
+      "width": 800
+    },
+    "datePublished": "2018-03-03T00:00:00JST",
+    "dateModified": "2018-03-03T00:00:00JST",
+    "author": {
+      "@type": "Person",
+      "name": "Will Nye - The SEO Guy"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Will Nye - The SEO Guy",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.williamnye.co.uk/images/logo.png",
+        "width": 600,
+        "height": 60
+      }
+    },
+    "description": "This page describes some ways to extract search engine hits from a websites log files.
+Extracting Hits from Apache Log Files To extract just the Googlebot hits on the site using the GNU/Linux terminal, try this:
+grep 'Googlebot\/' access.log &gt; googlebot_access.log
+That will write the Googlebot hits to a new logfile called googlebot_access.log.
+You can also pipe that output into another command, for example to extract only the URLs that Googlebot is requesting:"
+  }
+</script>
+
+
+    <style amp-custom>
+      html { font-size: 18px;}@media (max-width: 768px) { html { font-size: 15px; }}body { font-family: Lato,'Hiragino Kaku Gothic Pro',メイリオ,Meiryo,sans-serif; font-size: inherit; margin: 0; color: #263238;}html, body { margin: 0;}a { text-decoration: none; color: #e91e63;}p { margin: 0;}ul,ol { margin: 0; padding: 0;}h1, h2, h3, h4, h5, h6 { margin: 0; font-weight: 700;}h1 { font-size: 1.8rem; line-height: 2rem; margin: 1.5rem 0; }h2 { font-size: 1.4rem; line-height: 2rem; margin: 1.5rem 0; }h3 { font-size: 1.2rem; line-height: 1.5rem; margin: 1.5rem 0; }h4, h5, h6 { font-size: 1rem; line-height: 1.5rem; margin: 1.5rem 0; }.clearfix::after { content: ''; display: block; clear: both;}main { display: block;}table { border: 1px solid #ccc; border-collapse: collapse; margin: 0; padding: 0; width: 100%; table-layout: fixed;}table caption { font-size: 1.5em; margin: .5em 0 .75em;}table tr { background: #f8f8f8; border: 1px solid #ccc; padding: .35em;}table th,table td { padding: .625em; text-align: center;}table th { font-size: .85em; letter-spacing: .1em; text-transform: uppercase;}@media screen and (max-width: 600px) { table { border: 0; } table caption { font-size: 1.3em; } table thead { border: none; clip: rect(0 0 0 0); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; width: 1px; } table tr { border-bottom: 3px solid #ccc; display: block; margin-bottom: .625em; } table td { border-bottom: 1px solid #ccc; display: block; font-size: .8em; text-align: right; } table td:before { /* * aria-label has no advantage, it won't be read inside a table content: attr(aria-label); */ content: attr(data-label); float: left; font-weight: bold; text-transform: uppercase; } table td:last-child { border-bottom: 0; }}}/* Layouts */.l-header { padding: .5rem 0; margin-bottom: 2rem; border-bottom: 1px dashed #cfd8dc; text-align: center;}.l-footer { font-size: .8rem; padding: 1rem 0; border-top: 1px dashed #cfd8dc;}.l-container { max-width: 42rem; margin: 0 auto; padding: 0 1rem;}/* Parts:logo */.p-logo { font-family: Lobster, cursive;}.p-logo a { color: #000; font-size: 1.6rem; line-height: 2rem;}/* Parts:section */section { border-top: 2px solid #eceff1; padding: 1.5rem 0;}section>header { text-transform: uppercase; font-weight: 700; margin-bottom: 2rem; text-align: center;}section>header span { display: inline-block; background-color: #000; color: #fff; letter-spacing: 3px; font-size: .7rem; padding: .5rem .75rem;}/* Parts:facts */.p-facts { list-style: none; font-size: .8rem; margin-bottom: 1rem;}.p-facts:last-child { margin-bottom: 0;}.p-facts li { display: inline-block; margin-right: .5rem; text-transform: uppercase;}.p-facts li header { margin-bottom: .25rem; font-weight: 700;}.p-facts li header a { color: #000; text-decoration: underline;}.p-facts li li { display: inline-block; margin-right: .5rem;}.p-facts li li::after { content: ',';}.p-facts li li:last-child::after { content: '';}/* Parts:crumb */.p-crumb { list-style: none; margin-bottom: 1rem; font-size: .8rem; text-transform: uppercase; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}.p-crumb:last-child { margin-bottom: 0;}.p-crumb li { display: inline;}.p-crumb li::after { content: '›'; margin: 0 .5rem;}.p-crumb li:last-child::after { content: '';}/* Parts:page-title */.p-page-title { margin-bottom: 2rem;}.p-page-title .title { margin-bottom: .5rem;}/* Parts:share */.p-share { margin-bottom: 1.5rem;}.p-share a { display: inline-block; text-align: center; padding: .5rem .5rem; margin-right: .25rem; font-size: .6rem; background-color: #eceff1; font-weight: 700k}.p-share a.ht { color: #00a4de; }.p-share a.fb { color: #3b5998; }.p-share a.tw { color: #1da1f2; }.p-share a.gp { color: #dd4b39; }.p-share a.ln { color: #00c300; }.p-share a.ht::before { content: 'Hatena'; }.p-share a.fb::before { content: 'Facebook'; }.p-share a.tw::before { content: 'Twitter'; }.p-share a.gp::before { content: 'Google+'; }.p-share a.ln::before { content: 'LINE'; }/* Parts:terms */.p-terms { padding-left: 2rem;}/* Parts:paginator */.p-paginator { text-align: center; margin-bottom: 3rem; padding-top: 2rem;}.p-paginator a { display: inline-block; border: 2px solid #eceff1; color: #263238; line-height: 2rem; padding: 0 1rem;}/* Parts:article */.p-articles { list-style: none;}.p-articles>li { margin-bottom: 1.5rem; padding-bottom: 1.5rem; border-bottom: 1px dashed #cfd8dc;}.p-articles>li:last-child { border-bottom: none; padding-bottom: 0;}.p-articles.thin>li { margin-bottom: 1rem; padding-bottom: 1rem;}article .article-header { display: table-cell; height: 6rem; vertical-align: middle;}article .title { margin: 0; margin-bottom: .5rem; font-size: 1.4rem; line-height: 2rem;}article .title a { color: #000;}article .header-wrapper { margin-bottom: 1.5rem;}article .summary { margin-bottom: 1.5rem;}article .readmore { text-align: center;}article .readmore a { font-size: .8rem; color: #000; text-decoration: underline;}article.li.sm .header-wrapper { margin-bottom: 0;}.article-body h2 { padding: 1rem 0; border-bottom: 2px solid #eceff1;}.article-body h2:first-child { margin-top: 0; }.article-body h3 { color: #cddc39;}.article-body h4 { border-left: solid .25rem #cddc39; padding: 0 .5rem;}.article-body p { margin: 1.5rem 0; line-height: 1.5rem;}.article-body a { text-decoration: underline;}.article-body ul,.article-body ol { padding-left: 1.5rem;}.article-body code { display: inline-block; font-family: Menlo, consolas, monospace; background-color: #eceff1; font-size: .8rem; padding: 0 .5rem; line-height: 1.5rem;}.article-body pre { margin: 1.5rem 0; padding: 1.5rem; font-size: .8rem; background-color: #eceff1; overflow: auto;}.article-body pre code { background-color: transparent;}.article-body blockquote { margin: 1.5rem 0; padding: .5rem 0; font-size: .8rem; border-top: 1px solid #eceff1; border-bottom: 1px solid #eceff1; color: #607d8b;}.article-body blockquote p { margin: .5rem 0; line-height: 1rem;}.article-body em { font-style: normal; font-weight: 700; color: #ff5722;}.article-body figure { margin: 1.5rem -2rem; }.article-body figure.left,.article-body figure.right { width: 15rem; height: 12rem; margin-top: 0; margin-left: 0; margin-right: 0;}.article-body figure.left { float: left; margin-right: 1rem; margin-left: -2rem; }.article-body figure.right { float: right; margin-left: 1rem; margin-right: -2rem; }@media (max-width: 768px) { .article-body figure { margin: 1.5rem -1rem; } .article-body figure.left, .article-body figure.right { float: none; margin: 0 -1rem; width: auto; height: auto; }}.article-body figcaption { padding: .5rem 0; font-size: .8rem; text-align: center;}.article-body figcaption a { color: #263238;}
+
+      
+    </style>
+  </head>
+
+  <body>
+    
+    
+    
+
+    <header class="l-header">
+      <div class="l-container">
+        <div class="h-logo p-logo">
+          <a href="https://www.williamnye.co.uk/" class="h-logo">Will Nye - The SEO Guy</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      
+<div class="l-container">
+  <article class="single article-262a4d3e3050e68195096c3ea995bf92">
+  <div class="header-wrapper">
+    <a href="https://www.williamnye.co.uk/extracting-search-engine-hits-from-log-files/" class="thumbnail" title="Extracting Search Engine Hits from Log Files"></a>
+    <header class="article-header">
+      <div class="clearfix">
+        <h1 class="title">Extracting Search Engine Hits from Log Files</h1>
+        <ul class="p-facts">
+          <li><time datetime="2018-03-03T00:00:00JST">Mar 3, 2018</time></li>
+          
+          
+        </ul>
+      </div>
+    </header>
+  </div>
+
+  <aside class="p-share">
+  <a href="http://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fwww.williamnye.co.uk%2fextracting-search-engine-hits-from-log-files%2f&t=Extracting%20Search%20Engine%20Hits%20from%20Log%20Files" title="Facebook" class="fb" target="_blank" rel="nofollow"></a>
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fwww.williamnye.co.uk%2fextracting-search-engine-hits-from-log-files%2f&text=Extracting%20Search%20Engine%20Hits%20from%20Log%20Files&tw_p=tweetbutton" title="Twitter" class="tw" target="_blank" rel="nofollow"></a>
+</aside>
+
+
+  <div class="article-body">
+
+<p>This page describes some ways to extract search engine hits from a websites log files.</p>
+
+<h2 id="extracting-hits-from-apache-log-files">Extracting Hits from Apache Log Files</h2>
+
+<p>To extract just the Googlebot hits on the site using the GNU/Linux terminal, try this:</p>
+
+<p><code>grep 'Googlebot\/' access.log &gt; googlebot_access.log</code></p>
+
+<p>That will write the Googlebot hits to a new logfile called googlebot_access.log.</p>
+
+<p>You can also pipe that output into another command, for example to extract only the URLs that Googlebot is requesting:</p>
+
+<pre><code>grep 'Googlebot\/' access.log | cut -d' ' -f7 &gt; googlebot_urls_access.log
+</code></pre>
+
+<p>(The above line assumes that the URLs are in column 7 of the log file. You might have to adjust it based on your log file format.)</p>
+
+<p>Once you have a file with Google&rsquo;s hits on your site, you can then grep it for specific response codes. For example, to get all the 404s that Googlebot is hitting, you could use the following:</p>
+
+<pre><code>grep 'Googlebot\/' access.log | grep [[:space:]]404[[:space:]]' &gt; googlebot_404s.txt
+</code></pre>
+
+<p>You can also grep for different types of headers (302, 301, 500, etc.) which will usually provide other interesting information, especially on a large site.</p>
+
+<p>You can extract all major search engine information and convert it to a CSV file for processing in a spreadsheet. You can open a space-delimited file in a spreadsheet, but converting it to a comma-delimited format will allow you to have blank columns in case you need to remove the dashes in the log file.</p>
+
+<h2 id="extracting-hits-from-iis-log-files">Extracting Hits from IIS Log Files</h2>
+
+<p>IIS logs are often configured to output the filename in one column and the query string in the following column. An example of a line from an IIS log is shown below, with a highlighted filename and query string:</p>
+
+<p><code>2006-10-19 00:22:41 66.249.65.99 - nnn.nnn.nn.nnn 80 GET /products.aspx item=12345 404 0 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - -</code></p>
+
+<p>Unfortunately, the default settings on IIS do not seem to output the actual full URLs requested. It may be useful to get a list of URLs that were accessed by Google in order to process them further.</p>
+
+<p>The following one-liner does the following:</p>
+
+<ol>
+<li>Greps a log file that contains only hits from search engines for 404 errors. This will give a list of every &ldquo;404 Not Found&rdquo; page that search engines are visiting.</li>
+<li>It then uses the cut command to extract columns 8 and 9 — in this case, the page (/products.aspx) and the query string (item=12345).</li>
+<li>Then it uses awk to print out <a href="http://www.example.com/filename?querystring">http://www.example.com/filename?querystring</a>.</li>
+<li>Because not every requested page has a query string, sed can be used to remove the ?- that will be found on hits that don&rsquo;t have a query string.</li>
+</ol>
+
+<p><br />
+    <code>grep [[:space:]]404[[:space:]] se_access.txt | cut -d' ' -f8,9 | awk '{ print &quot;http://www.example.com&quot;$1&quot;?&quot;$2}' | sed 's/\?-//g' &gt; 404_errors.txt</code></p>
+
+<p>The final result is a file named <tt>404_errors.txt</tt> that contains a list of URLs that are being requested on a site by search engines that don&rsquo;t exist. The example above would take the following line from an IIS log:</p>
+
+<p><code>2006-10-19 00:22:41 66.249.65.99 - nnn.nnn.nn.nnn 80 GET /products.aspx item=12345 404 0 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - -</code></p>
+
+<p>and convert it to the following line:</p>
+
+<p><a href="http://www.example.com/products.aspx?item=12345">http://www.example.com/products.aspx?item=12345</a></p>
+</div>
+
+  <aside class="p-share">
+  <a href="http://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fwww.williamnye.co.uk%2fextracting-search-engine-hits-from-log-files%2f&t=Extracting%20Search%20Engine%20Hits%20from%20Log%20Files" title="Facebook" class="fb" target="_blank" rel="nofollow"></a>
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fwww.williamnye.co.uk%2fextracting-search-engine-hits-from-log-files%2f&text=Extracting%20Search%20Engine%20Hits%20from%20Log%20Files&tw_p=tweetbutton" title="Twitter" class="tw" target="_blank" rel="nofollow"></a>
+</aside>
+
+
+  <footer class="article-footer">
+    <section>
+      <ol class="p-crumb">
+        <li><a href="https://www.williamnye.co.uk/">Will Nye - The SEO Guy</a></li>
+        
+        <li>Extracting Search Engine Hits from Log Files</li>
+      </ol>
+
+      
+      
+      
+      <ul class="p-facts">
+        <li>
+          <header><a href="https://www.williamnye.co.uk/categories/">categories</a></header>
+          <ul>
+            
+            <li><a href="https://www.williamnye.co.uk/categories/technical/">Technical</a></li>
+            
+          </ul>
+        </li>
+      </ul>
+      
+      
+      
+      
+    </section>
+  </footer>
+</article>
+
+
+
+  
+  
+  <section>
+    <header><span>Recent Posts</span></header>
+    <ul class="p-articles thin">
+      <li><article class="li sm article-e8a1de51cdf6a4c34ba6779956437d38">
+  <div class="header-wrapper">
+    <a href="https://www.williamnye.co.uk/influence-psychology-persuasion-outreach-takeaways/" class="thumbnail" title="Influence The Psychology of Persuasion – Outreach Takeaways"></a>
+    <header class="article-header">
+      <div class="clearfix">
+        <h2 class="title"><a href="https://www.williamnye.co.uk/influence-psychology-persuasion-outreach-takeaways/">Influence The Psychology of Persuasion – Outreach Takeaways</a></h2>
+        <ul class="p-facts">
+          <li><time datetime="2016-05-30T00:00:00JST">May 30, 2016</time></li>
+          
+          
+        </ul>
+      </div>
+    </header>
+  </div>
+</article>
+</li><li><article class="li sm article-f8b61835f6ec788828b0cdedb46a7c4f">
+  <div class="header-wrapper">
+    <a href="https://www.williamnye.co.uk/parsing-logs-seo-analysis-using-windows-cmd-line/" class="thumbnail" title="Parsing Logs for SEO Analysis Using Windows CMD Line"></a>
+    <header class="article-header">
+      <div class="clearfix">
+        <h2 class="title"><a href="https://www.williamnye.co.uk/parsing-logs-seo-analysis-using-windows-cmd-line/">Parsing Logs for SEO Analysis Using Windows CMD Line</a></h2>
+        <ul class="p-facts">
+          <li><time datetime="2016-03-02T00:00:00JST">Mar 2, 2016</time></li>
+          
+          
+        </ul>
+      </div>
+    </header>
+  </div>
+</article>
+</li><li><article class="li sm article-e7c8b3811371f1373635867c895751fb">
+  <div class="header-wrapper">
+    <a href="https://www.williamnye.co.uk/seos-can-learn-thedress/" class="thumbnail" title="What SEOs Can Learn From #TheDress"></a>
+    <header class="article-header">
+      <div class="clearfix">
+        <h2 class="title"><a href="https://www.williamnye.co.uk/seos-can-learn-thedress/">What SEOs Can Learn From #TheDress</a></h2>
+        <ul class="p-facts">
+          <li><time datetime="2015-03-06T00:00:00JST">Mar 6, 2015</time></li>
+          
+          
+        </ul>
+      </div>
+    </header>
+  </div>
+</article>
+</li>
+    </ul>
+  </section>
+  
+</div>
+
+
+    </main>
+
+    
+
+    <footer class="l-footer">
+      <div class="l-container">
+        <p><span class="h-logo">&copy; Will Nye - The SEO Guy</span></p>
+      </div>
+    </footer>
+
+    <a href="#" class="p-movetop" rel="nofollow"></a>
+  </body>
+</html>
+

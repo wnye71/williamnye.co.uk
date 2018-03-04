@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Will Nye - The SEO Guy</title>
+    <link>https://www.williamnye.co.uk/</link>
+    <description>Recent content on Will Nye - The SEO Guy</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Sat, 03 Mar 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.williamnye.co.uk/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Extracting Search Engine Hits from Log Files</title>
+      <link>https://www.williamnye.co.uk/extracting-search-engine-hits-from-log-files/</link>
+      <pubDate>Sat, 03 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.williamnye.co.uk/extracting-search-engine-hits-from-log-files/</guid>
+      <description>This page describes some ways to extract search engine hits from a websites log files.
+Extracting Hits from Apache Log Files To extract just the Googlebot hits on the site using the GNU/Linux terminal, try this:
+grep &#39;Googlebot\/&#39; access.log &amp;gt; googlebot_access.log
+That will write the Googlebot hits to a new logfile called googlebot_access.log.
+You can also pipe that output into another command, for example to extract only the URLs that Googlebot is requesting:</description>
+    </item>
+    
+    <item>
+      <title>Influence The Psychology of Persuasion – Outreach Takeaways</title>
+      <link>https://www.williamnye.co.uk/influence-psychology-persuasion-outreach-takeaways/</link>
+      <pubDate>Mon, 30 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.williamnye.co.uk/influence-psychology-persuasion-outreach-takeaways/</guid>
+      <description>Recently, i’ve been trying to better understand what constitutes ‘good outreach’ in an attempt to increase response rates and overall placements. Ignoring the quality of the actual content being outreached — which, I believe, will always be the number one factor — there appear to be three main components. These are:
+1. Outreach targets: The quality of the contact list, e.g. relevency to the writer/site.
+2. The Pitch: The language used in the initial email — subject line, copy, length of copy, link inclusion, attachment inclusion, etc.</description>
+    </item>
+    
+    <item>
+      <title>Parsing Logs for SEO Analysis Using Windows CMD Line</title>
+      <link>https://www.williamnye.co.uk/parsing-logs-seo-analysis-using-windows-cmd-line/</link>
+      <pubDate>Wed, 02 Mar 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.williamnye.co.uk/parsing-logs-seo-analysis-using-windows-cmd-line/</guid>
+      <description>Using log files for SEO analysis is a great way to uncover issues that you may have otherwise missed. This is because, unlike third party spiders, they allow you to see exactly how Googlebot is crawling a site.
+If you’re an SEO professional looking to carry out your own log file analysis, then the chances are you’ll have to request the files through your own, or your clients, dev team.</description>
+    </item>
+    
+    <item>
+      <title>What SEOs Can Learn From #TheDress</title>
+      <link>https://www.williamnye.co.uk/seos-can-learn-thedress/</link>
+      <pubDate>Fri, 06 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.williamnye.co.uk/seos-can-learn-thedress/</guid>
+      <description>Unless you’ve been living under a rock for the past week, you’ve probably read or heard something about #TheDress. The debate went viral last Thursday, resulting in a massive influx of publicity for the retailer Roman Originals and an overnight 347% increase in sales for the garment in question.
+Yet, beyond an initial spike in product interest, what will the legacy of #TheDress be for the brand? Additionally, based on previous academic research, what can we learn from the stories success?</description>
+    </item>
+    
+    <item>
+      <title>Experimenting with Crowdsearch.me</title>
+      <link>https://www.williamnye.co.uk/experimenting-with-crowdsearch-me/</link>
+      <pubDate>Tue, 03 Feb 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.williamnye.co.uk/experimenting-with-crowdsearch-me/</guid>
+      <description>For my inaugural post on this blog I decided to experiment with a brand new SEO service – crowdsearch.me – which is one of the first platforms attempting to improve website rankings by replicating user engagement signals.
+Crowdsearch.me positions itself as the future of SEO; boldly claiming within the sales video that CTR is now the no1 factor that Google uses to determine rankings. It supports this claim by citing this years Search Metrics 2014 Ranking Factors Study, which does in all fairness list Click Through Rate as having the highest correlation with rankings within positions 1-5.</description>
+    </item>
+    
+  </channel>
+</rss>

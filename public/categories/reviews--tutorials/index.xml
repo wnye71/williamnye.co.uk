@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Reviews  Tutorials on Will Nye - The SEO Guy</title>
+    <link>https://www.williamnye.co.uk/categories/reviews--tutorials/</link>
+    <description>Recent content in Reviews  Tutorials on Will Nye - The SEO Guy</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Tue, 03 Feb 2015 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.williamnye.co.uk/categories/reviews--tutorials/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Experimenting with Crowdsearch.me</title>
+      <link>https://www.williamnye.co.uk/experimenting-with-crowdsearch-me/</link>
+      <pubDate>Tue, 03 Feb 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.williamnye.co.uk/experimenting-with-crowdsearch-me/</guid>
+      <description>For my inaugural post on this blog I decided to experiment with a brand new SEO service – crowdsearch.me – which is one of the first platforms attempting to improve website rankings by replicating user engagement signals.
+Crowdsearch.me positions itself as the future of SEO; boldly claiming within the sales video that CTR is now the no1 factor that Google uses to determine rankings. It supports this claim by citing this years Search Metrics 2014 Ranking Factors Study, which does in all fairness list Click Through Rate as having the highest correlation with rankings within positions 1-5.</description>
+    </item>
+    
+  </channel>
+</rss>
