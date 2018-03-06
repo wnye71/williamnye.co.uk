@@ -2,6 +2,7 @@
 title: "Experimenting with Crowdsearch.me"
 date: "2015-02-03"
 categories: ["Reviews & Tutorials"]
+thumbnail: "thumbs/crowdsearch-thumb.jpg"
 
 ---
 
