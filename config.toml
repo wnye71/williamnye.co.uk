@@ -4,4 +4,6 @@ title = "Will Nye - The SEO Guy"
 theme = "aglaus"
 defaultContentLanguage = "en"
 
+googleAnalytics = "UA-58543053-1"
+
 [params]
