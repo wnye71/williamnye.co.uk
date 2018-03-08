@@ -14,7 +14,7 @@ Whenever I go through this process at work, my standard request is for around 10
 
 Occasionally, the developers will be nice enough to perform a [GREP to extract Googlebot](https://www.portent.com/blog/seo/get-geeky-grep-seo-tool.htm) from the raw files. Most of the time, however, they’ll just send them over as is:
 
-{{% img src="/img/logs-blog-post.jpg" alt="Server Logs Blog Post" w="600" h="400" %}}
+{{% img src="img/logs-blog-post.jpg" alt="Server Logs Blog Post" w="600" h="400" %}}
 
 If you end up in this scenario and you’re a Mac user, then you’re in luck — Mac is a [UNIX](https://en.wikipedia.org/wiki/Unix) based operating system so you can perform a GREP using its version of the terminal; if you’re on Windows like myself, then you’re either going to need to use an emulator like [Cygwin](https://www.cygwin.com/), third party software like [Gamut](http://www.gamutsoftware.com/index.php/help/logfileconfiguration), or the Windows CMD line.
 
