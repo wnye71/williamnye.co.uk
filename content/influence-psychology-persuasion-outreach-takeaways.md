@@ -2,6 +2,7 @@
 title: "Influence The Psychology of Persuasion – Outreach Takeaways"
 date: "2016-05-30"
 categories: ["Content & Outreach"]
+thumbnail: "thumbs/influence.png"
 
 ---
 

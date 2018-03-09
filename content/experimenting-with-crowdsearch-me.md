@@ -10,7 +10,8 @@ For my inaugural post on this blog I decided to experiment with a brand new SEO 
 
 Crowdsearch.me positions itself as the future of SEO; boldly claiming within the sales video that CTR is now the no1 factor that Google uses to determine rankings. It supports this claim by citing this years [Search Metrics 2014 Ranking Factors Study](http://www.searchmetrics.com/knowledge-base/ranking-factors/), which does in all fairness list Click Through Rate as having the highest **correlation** with rankings within positions 1-5.
 
-![Search Metrics 2014 Ranking Factors](/img/Search-Metrics-2014-case-study.png)
+
+{{% img src="img/Search-Metrics-2014-case-study.png" alt="Search Metrics 2014 Ranking Factors" %}}
 
 Yet, as most SEO’s will tell you, [correlation does not imply causation](http://en.wikipedia.org/wiki/Correlation_does_not_imply_causation). In fact, social signals consistently rank highly within these types of studies, despite Google stating [multiple](https://www.youtube.com/watch?v=udqtSM-6QbQ) [times](https://www.youtube.com/watch?v=PfLaC325S6M) that they are not currently a direct factor within its ranking algorithms – something that has been covered well in previous [posts](http://www.blindfiveyearold.com/social-signals-and-seo) and [studies](http://www.stonetemple.com/measuring-google-plus-impact-on-search-rankings/).
 
@@ -121,8 +122,6 @@ For my test, I set all of my searches at between 2-5 minutes in duration and var
 Although I was intrigued by Smart Rank, i was unfortunately not able to select it on any of my target keywords. This is because it’s only available if you are ranking below 120 for the selected phrase and the volume is above 1000 searches per month.
 
 Social shares were also not selected for the reasons discussed above.
-
-![Crowdsearch.me Dashboard](/img/crowdsearch.me_.png)
 
 ## Results – 7/1/2015 – 21/1/2015
 

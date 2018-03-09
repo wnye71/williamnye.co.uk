@@ -1,6 +1,6 @@
 ---
 title: "Extracting Search Engine Hits from Log Files"
-date: "2018-03-03"
+date: "2017-03-03"
 categories: ["Technical"]
 
 ---
