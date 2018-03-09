@@ -7,7 +7,7 @@
   status = 301
   force = false
 
-from = "/category/content-outreach"
+  from = "/category/content-outreach"
   to = "/categories/content--outreach"
   status = 301
   force = false
