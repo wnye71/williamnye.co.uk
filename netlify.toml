@@ -6,3 +6,13 @@
   to = "/categories/technical"
   status = 301
   force = false
+
+from = "/category/content-outreach"
+  to = "/categories/content--outreach"
+  status = 301
+  force = false
+  
+  from = "/category/reviews-tutorials"
+  to = "/categories/reviews--tutorials"
+  status = 301
+  force = false
