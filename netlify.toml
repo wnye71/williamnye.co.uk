@@ -2,17 +2,19 @@
   HUGO_VERSION = "0.37"
   
 [[redirects]]
-  from = "/category/technical/"
-  to = "/categories/technical/"
+  from = "/category/technical"
+  to = "/categories/technical"
   status = 301
   force = false
-
+  
+[[redirects]]
   from = "/category/content-outreach"
   to = "/categories/content--outreach"
   status = 301
   force = false
   
-  from = "/category/reviews-tutorials"
-  to = "/categories/reviews--tutorials"
+  [[redirects]]  
+  from = "/category/reviews-tutorials/"
+  to = "/categories/reviews--tutorials/"
   status = 301
   force = false
