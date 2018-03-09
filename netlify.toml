@@ -1,5 +1,8 @@
 [context.production.environment]
   HUGO_VERSION = "0.37"
   
-  redirects = [
-  {from = "/category/technical", to = "/categories/technical"}]
+[[redirects]]
+  from = "/category/technical"
+  to = "/categories/technical"
+  status = 301
+  force = false
