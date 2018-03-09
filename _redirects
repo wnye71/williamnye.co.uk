@@ -1,3 +1,4 @@
-/category/technical/ /categories/technical/
-/category/content-outreach/ /categories/content--outreach/
-/category/reviews-tutorials/ /categories/reviews--tutorials/
+# redirects
+/category/technical /categories/technical
+/category/content-outreach /categories/content--outreach
+/category/reviews-tutorials /categories/reviews--tutorials
