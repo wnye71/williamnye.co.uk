@@ -1,4 +1,4 @@
 # Redirects
-/category/technical             /categories/technical
-/category/content-outreach  /categories/content--outreach
-/category/reviews-tutorials /categories/reviews--tutorials
+/category/technical  /categories/technical  301
+/category/content-outreach  /categories/content--outreach  301
+/category/reviews-tutorials  /categories/reviews--tutorials  302
