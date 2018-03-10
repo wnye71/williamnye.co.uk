@@ -1,9 +1,8 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+<link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
 <meta name="theme-color" content="#E91E63">
 {{ with .Site.Params.contact }}<meta name="contact" content="{{ . }}">{{ end }}
 {{ .Hugo.Generator }}
-
 {{ with .RSSLink }}<link rel="alternate" type="application/rss+xml" title="RSS" href="{{ . }}">{{ end }}
-
 <link rel="canonical" href="{{ .Permalink }}">
