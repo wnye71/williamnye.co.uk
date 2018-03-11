@@ -36,16 +36,16 @@ This will search all of the .log files in the folder and extract all of the inst
 
 ## FAQ
 
-###### Why would you use this over something like Gamut with a graphical user interface?
+#### Why would you use this over something like Gamut with a graphical user interface?
 
 Mainly because it’s free and actually usually ends up being quicker. Additionally, any graphical interface requires some form of processing power, which can cause it to hang on very large files.
 
-###### What if i’m not using logs?
+#### What if i’m not using logs?
 
 Although this is primarily aimed at logs, you can use it for any form of text extraction. Ever wanted to merged a load of CSV files when doing link analysis/prospecting? Put them in the same folder and run the following command:
 
 `copy *.csv export.csv`
 
-###### My logs were zipped and have extracted in multiple folders?
+#### My logs were zipped and have extracted in multiple folders?
 
 Go to the folder where you extracted them all to. Run the same CMD but include /s before “Googlebot”

@@ -53,6 +53,10 @@ main {
   display: block;
 }
 
+amp-img {
+  background-color: grey;
+}
+
 table {
   border: 1px solid #ccc;
   border-collapse: collapse;
@@ -365,11 +369,11 @@ article.li.sm .header-wrapper {
 .article-body h2:first-child { margin-top: 0; }
 
 .article-body h3 {
-  color: #cddc39;
+  color: #e91e63;
 }
 
 .article-body h4 {
-  border-left: solid .25rem #cddc39;
+  border-left: solid .25rem #e91e63;
   padding: 0 .5rem;
 }
 

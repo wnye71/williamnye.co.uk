@@ -18,3 +18,9 @@
   to = "/categories/reviews--tutorials/"
   status = 301
   force = false
+
+  [[redirects]]  
+  from = "/tags/"
+  to = "/"
+  status = 301
+  force = false
