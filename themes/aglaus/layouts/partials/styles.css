@@ -154,11 +154,6 @@ table th {
   font-size: 1.6rem;
   line-height: 2rem;
 }
-@media screen and (max-width: 600px) {
-.p-logo a {
-  color: #000;
-  line-height: 2.2rem;  
-}
 
 /* Parts:section */
 section {
