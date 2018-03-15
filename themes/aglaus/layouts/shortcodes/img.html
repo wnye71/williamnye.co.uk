@@ -1,5 +1,14 @@
+{{ $image := .Params.src }}
+{{ $type_arr := split $image "." }}
+{{ $srcbase := index $type_arr 0 }}
+{{ $srcext := index $type_arr 1 }}
+{{ $.Scratch.Set "srcbase" $srcbase }}
+{{ $.Scratch.Set "srcext" $srcext }}
+
 <figure{{ if .Get "class" }} class="{{ .Get "class" }}"{{ end }}>
-  <amp-img src="{{ $.Site.BaseURL }}{{ .Get "src" }}" alt="{{ .Get "alt" | default (.Get "src") }}" width={{ .Get "w" | default "640" }} height={{ .Get "h" | default "400"}} layout="responsive"></amp-img>
+ <amp-img src="{{$srcbase}}.webp" alt="{{ .Get "alt" | default (.Get "src") }}" width={{ .Get "w" | default "640" }} height={{ .Get "h" | default "400"}} layout="responsive">
+<div fallback>
+ <amp-img src="{{$srcbase}}.{{$srcext}}" alt="{{ .Get "alt" | default (.Get "src") }}" width={{ .Get "w" | default "640" }} height={{ .Get "h" | default "400"}} layout="responsive"></amp-img></div>
   {{ if .Get "caption" }}
   <figcaption>
     {{ if .Get "href" }}

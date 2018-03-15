@@ -58,7 +58,7 @@ Now we’ve covered the factors that helped the story go viral, it’s time to a
 
 On 27/2/15, the website only had 508 linking root domains; a fairly small number considering the competitiveness of the fashion vertical. As of 4/3/15, this had already increased to 1213 domains, a rise of 138.8%.
 
-{{% img src="img/Majestic-Graph-Roman-Originals.png" alt="Roman Originals Majestic Graph" w="600" h="150" %}}
+{{% img src="/img/Majestic-Graph-Roman-Originals.png" alt="Roman Originals Majestic Graph" w="600" h="150" %}}
 
 The vast majority of these links were also of a very high quality, causing the websites Majestic TF to increase from 17 on 27/2/15, to 27 on 4/3/15\. Some of the best links included:
 
@@ -119,15 +119,15 @@ The influx in high quality links from news sites covering the story has resulted
 
 Roman Originals anchor text profile previously showed relatively high levels of links using commercial anchors, including target keywords like: ‘evening wear’, ‘evening blouses’, ‘evening wear dresses’ and ‘womens clothing’.
 
-{{% img src="img/Majestic-Anchor-Text-Roman-Originals-Feb.png" alt="Majestic Anchor Text Ratio Roman Originals Feb" w="600" h="300" %}}
+{{% img src="/img/Majestic-Anchor-Text-Roman-Originals-Feb.png" alt="Majestic Anchor Text Ratio Roman Originals Feb" w="600" h="300" %}}
 
 The recent influx of links has massively improved this ratio, as most of the websites linked with branded or generic anchor texts. Consequently, by 4/3/15, the profile looked like this:
 
-{{% img src="img/Majestic-Anchor-Text-Roman-Originals-March.png" alt="Majestic Anchor Text Ration Roman Originals March" w="600" h="300" %}}
+{{% img src="/img/Majestic-Anchor-Text-Roman-Originals-March.png" alt="Majestic Anchor Text Ration Roman Originals March" w="600" h="300" %}}
 
 As anchor text ratios are one of the primary factors Penguin looks at, it stands to reason that this increase in branded and generic terms may both serve to prevent any future penalties occurring, or help the brand to escape any current penalisation. In this instance, the former scenario seems more likely, as Semrush shows no large-scale drops in organic visibility.
 
-{{% img src="img/semrush-roman-originals.png" alt="Semrush Roman Originals" w="600" h="150" %}}
+{{% img src="/img/semrush-roman-originals.png" alt="Semrush Roman Originals" w="600" h="150" %}}
 
 Note: Without seeing webmaster tools, there is no way of knowing whether or not these links have already been disavowed, in which case this would all be a non-issue. Nevertheless, the above is still an interesting example of how a viral piece of content could potentially lead to a website escaping an algorithmic penalty.
 
