@@ -1,8 +1,10 @@
 baseURL = "https://www.williamnye.co.uk/"
 languageCode = "en-gb"
 title = "Will Nye - The SEO Guy"
-description = "Sporadic SEO related ramblings from Will Nye. A Senior SEO Consultant based in London."
 theme = "aglaus"
 defaultContentLanguage = "en"
 
 googleAnalytics = "UA-58543053-1"
+
+[params]
+description = "Sporadic SEO related ramblings from Will Nye. A Senior SEO Consultant based in London."
