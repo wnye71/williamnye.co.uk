@@ -24,3 +24,8 @@
   to = "/"
   status = 301
   force = false
+  
+  [[headers]]
+  for = "/*"
+  [headers.values]
+   Link: <https://fonts.gstatic.com>; rel=preconnect; crossorigin
