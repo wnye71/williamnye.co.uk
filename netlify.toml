@@ -26,6 +26,6 @@
   force = false
   
   [[headers]]
-  for = "/*"
-  [headers.values]
-   Link: <https://fonts.gstatic.com>; rel=preconnect; crossorigin
+   for = "/*"
+    [headers.values]
+     Link: <https://fonts.gstatic.com>; rel=preconnect; crossorigin
