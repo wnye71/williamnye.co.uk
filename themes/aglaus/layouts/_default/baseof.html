@@ -5,7 +5,7 @@
     {{ with .Site.Params.googlefonts }}
     <link href="{{ . }}" rel="stylesheet">
     {{ else }}
-    <link href="https://fonts.googleapis.com/css?family=Lobster|Lato:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lobster|Lato:400,700&display=swap" rel="stylesheet">
     {{ end }}
     <title>{{ block "title" . }}{{ end }}{{ .Site.Title }}</title>
     <meta name="description" content="{{if .Summary}}{{ replaceRE "\n" "" (.Description | default .Summary) }}{{else}}{{ $.Site.Params.description }}{{end}}" />
