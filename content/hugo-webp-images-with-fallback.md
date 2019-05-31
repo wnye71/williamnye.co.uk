@@ -38,7 +38,7 @@ This will attempt to find a WebP version of the image specified within the short
 
 Currently it is designed to work with AMP (see amp-img) so some slight changes may be required for standard HTML.
 
-Example of shortcode usage. Make sure you wrap in curly braces {{% shortcode %}}:
+Example of shortcode usage. Make sure you wrap in curly braces {{ }}:
 
 `% img src="/img/image-blog-post.jpg" alt="Blog Post Image" w="600" h="400" %`
 
