@@ -3,8 +3,18 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://www.williamnye.co.uk/python-bulk-reverse-dns-lookup/</loc>
+    <lastmod>2019-06-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.williamnye.co.uk/hugo-webp-images-with-fallback/</loc>
+    <lastmod>2019-05-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.williamnye.co.uk/extracting-search-engine-hits-from-log-files/</loc>
-    <lastmod>2018-03-03T00:00:00+00:00</lastmod>
+    <lastmod>2017-03-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -51,13 +61,13 @@
   
   <url>
     <loc>https://www.williamnye.co.uk/categories/technical/</loc>
-    <lastmod>2018-03-03T00:00:00+00:00</lastmod>
+    <lastmod>2019-06-08T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.williamnye.co.uk/</loc>
-    <lastmod>2018-03-03T00:00:00+00:00</lastmod>
+    <lastmod>2019-06-08T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

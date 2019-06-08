@@ -6,15 +6,36 @@
     <description>Recent content in Technical on Will Nye - The SEO Guy</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Sat, 03 Mar 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 08 Jun 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://www.williamnye.co.uk/categories/technical/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Python Bulk Reverse DNS Lookup</title>
+      <link>https://www.williamnye.co.uk/python-bulk-reverse-dns-lookup/</link>
+      <pubDate>Sat, 08 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.williamnye.co.uk/python-bulk-reverse-dns-lookup/</guid>
+      <description>This script performs a reverse DNS lookup against a list of IP addresses. I use it to determine genuine Googlebot requests for log file analysis.
+It takes an Excel file (.xslx) called logs.xslx and looks for IPs in a column called &amp;lsquo;ip&amp;rsquo;. Then it performs a reverse lookup on the unique values. It exports an Excel file called validated_logs.xslx which contains all of the data from logs.xslx, with an additional column called &amp;lsquo;dns&amp;rsquo; that lists the domain names.</description>
+    </item>
+    
+    <item>
+      <title>Hugo WebP Images with Fallback</title>
+      <link>https://www.williamnye.co.uk/hugo-webp-images-with-fallback/</link>
+      <pubDate>Fri, 31 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.williamnye.co.uk/hugo-webp-images-with-fallback/</guid>
+      <description>Last year I moved this blog from WordPress to Hugo, hosted on Netlify. As a part of this move, I wanted to make the site as fast as possible and made a number of improvements, including adding in support for WebP images.
+This can be achieved with Hugo by creating the following shortcode:
+{{ $image := .Params.src }} {{ $type_arr := split $image &amp;quot;.&amp;quot; }} {{ $srcbase := index $type_arr 0 }} {{ $srcext := index $type_arr 1 }} {{ $.</description>
+    </item>
+    
+    <item>
       <title>Extracting Search Engine Hits from Log Files</title>
       <link>https://www.williamnye.co.uk/extracting-search-engine-hits-from-log-files/</link>
-      <pubDate>Sat, 03 Mar 2018 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 03 Mar 2017 00:00:00 +0000</pubDate>
       
       <guid>https://www.williamnye.co.uk/extracting-search-engine-hits-from-log-files/</guid>
       <description>This page describes some ways to extract search engine hits from a websites log files.
