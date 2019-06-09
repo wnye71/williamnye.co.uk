@@ -17,7 +17,7 @@ from dns import resolver,reversename
 from pandas.io.excel import ExcelWriter
 
 logs = pd.read_excel('logs.xlsx', sheet_name='Sheet1') #Import excel called logs.xlsx as dataframe
-logs_filtered = logs.drop_duplicates(['ip']) #ips from column called ip
+logs_filtered = logs.drop_duplicates(['ip']).copy() #create DF with dupliate ips filtered for check
 
 def reverseDns(ip):
 	try:
@@ -34,7 +34,7 @@ logs_merged = pd.merge(logs, logs_filtered[['ip','dns']], how='left', on=['ip'])
 
 # output as Excel
 
-writer = ExcelWriter('validated_logs.xlsx')
+writer = ExcelWriter('validated_logs.xlsx', engine='xlsxwriter', options={'strings_to_urls': False})
 logs_merged.to_excel(writer,'Sheet1',index=False)
 
 writer.save()
