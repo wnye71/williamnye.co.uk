@@ -9,19 +9,24 @@ categories: ["Technical"]
 
 This script performs a reverse DNS lookup against a list of IP addresses. I use it to determine genuine Googlebot requests for log file analysis.
 
-It takes an Excel file (.xslx) called logs.xslx and looks for IPs in a column called ip. Then it performs a reverse lookup on the unique values. It exports an Excel file called validated_logs.xslx which contains all of the data from logs.xslx, with an additional column called 'dns' that lists the domain names.
+It takes an Excel file (.xslx) called logs.xslx with a sheet named 'Sheet1' and looks for IPs in a column called ip. Then it performs a reverse lookup on the unique values. It exports an Excel file called validated_logs.xslx which contains all of the data from logs.xslx, with an additional column called 'dns' that lists the domain names. If using a CSV, swap read_excel for read_csv as specified within the comments.
 
 Anaconda comes with all the packages required to run this script. If you’re not using Anaconda, there are a few dependencies that need installing. See comments in code.
 
 
 ```
+#pip install pandas
 import pandas as pd
 # pip install dnspython
 from dns import resolver,reversename
 # pip install xlrd, pip install xlsxwriter
 from pandas.io.excel import ExcelWriter
+import time 
+startTime = time.time()
 
 # Import excel called logs.xlsx as dataframe
+# if CSV change to pd.read_csv('logs.csv', error_bad_lines=False)
+
 logs = pd.read_excel('logs.xlsx', sheet_name='Sheet1') 
 
 # Create DF with dupliate ips filtered for check
@@ -46,5 +51,5 @@ logs_filtered.to_excel(writer,'Sheet1', index=False)
 writer.save()
 
 print('File Succesfully written as validated_logs.xlsx')
-
+print ('The script took {0} second !'.format(time.time() - startTime))
 ```
