@@ -18,7 +18,7 @@
       
       <guid>https://www.williamnye.co.uk/python-bulk-reverse-dns-lookup/</guid>
       <description>This script performs a reverse DNS lookup against a list of IP addresses. I use it to determine genuine Googlebot requests for log file analysis.
-It takes an Excel file (.xslx) called logs.xslx and looks for IPs in a column called &amp;lsquo;ip&amp;rsquo;. Then it performs a reverse lookup on the unique values. It exports an Excel file called validated_logs.xslx which contains all of the data from logs.xslx, with an additional column called &amp;lsquo;dns&amp;rsquo; that lists the domain names.</description>
+It takes an Excel file (.xslx) called logs.xslx with a sheet named &amp;lsquo;Sheet1&amp;rsquo; and looks for IPs in a column called ip. Then it performs a reverse lookup on the unique values. It exports an Excel file called validated_logs.xslx which contains all of the data from logs.</description>
     </item>
     
     <item>

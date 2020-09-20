@@ -18,7 +18,7 @@
       
       <guid>https://www.williamnye.co.uk/python-bulk-reverse-dns-lookup/</guid>
       <description>This script performs a reverse DNS lookup against a list of IP addresses. I use it to determine genuine Googlebot requests for log file analysis.
-It takes an Excel file (.xslx) called logs.xslx and looks for IPs in a column called &amp;lsquo;ip&amp;rsquo;. Then it performs a reverse lookup on the unique values. It exports an Excel file called validated_logs.xslx which contains all of the data from logs.xslx, with an additional column called &amp;lsquo;dns&amp;rsquo; that lists the domain names.</description>
+It takes an Excel file (.xslx) called logs.xslx with a sheet named &amp;lsquo;Sheet1&amp;rsquo; and looks for IPs in a column called ip. Then it performs a reverse lookup on the unique values. It exports an Excel file called validated_logs.xslx which contains all of the data from logs.</description>
     </item>
     
     <item>
@@ -74,16 +74,6 @@ If you’re an SEO professional looking to carry out your own log file analysis,
       <guid>https://www.williamnye.co.uk/seos-can-learn-thedress/</guid>
       <description>Unless you’ve been living under a rock for the past week, you’ve probably read or heard something about #TheDress. The debate went viral last Thursday, resulting in a massive influx of publicity for the retailer Roman Originals and an overnight 347% increase in sales for the garment in question.
 Yet, beyond an initial spike in product interest, what will the legacy of #TheDress be for the brand? Additionally, based on previous academic research, what can we learn from the stories success?</description>
-    </item>
-    
-    <item>
-      <title>Experimenting with Crowdsearch.me</title>
-      <link>https://www.williamnye.co.uk/experimenting-with-crowdsearch-me/</link>
-      <pubDate>Tue, 03 Feb 2015 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.williamnye.co.uk/experimenting-with-crowdsearch-me/</guid>
-      <description>For my inaugural post on this blog I decided to experiment with a brand new SEO service – crowdsearch.me – which is one of the first platforms attempting to improve website rankings by replicating user engagement signals.
-Crowdsearch.me positions itself as the future of SEO; boldly claiming within the sales video that CTR is now the no1 factor that Google uses to determine rankings. It supports this claim by citing this years Search Metrics 2014 Ranking Factors Study, which does in all fairness list Click Through Rate as having the highest correlation with rankings within positions 1-5.</description>
     </item>
     
   </channel>

@@ -2,6 +2,7 @@
 <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
 <link href="https://cdn.ampproject.org" rel="preconnect" crossorigin>
 <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css?family=Lobster|Lato:400,700&display=swap" />
 <link rel="dns-prefetch" href="//www.google-analytics.com">
 <meta name="theme-color" content="#E91E63">
 <link rel="apple-touch-icon" sizes="120x120" href="/img/apple-touch-icon.png">
@@ -13,5 +14,3 @@
 {{ .Hugo.Generator }}
 {{ with .RSSLink }}<link rel="alternate" type="application/rss+xml" title="RSS" href="{{ . }}">{{ end }}
 <link rel="canonical" href="{{ .Permalink }}">
-
-

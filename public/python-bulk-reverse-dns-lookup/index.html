@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
 <link href="https://cdn.ampproject.org" rel="preconnect" crossorigin>
 <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css?family=Lobster|Lato:400,700&display=swap" />
 <link rel="dns-prefetch" href="//www.google-analytics.com">
 <meta name="theme-color" content="#E91E63">
 <link rel="apple-touch-icon" sizes="120x120" href="/img/apple-touch-icon.png">
@@ -16,14 +17,12 @@
 <meta name="generator" content="Hugo 0.37" />
 
 <link rel="canonical" href="https://www.williamnye.co.uk/python-bulk-reverse-dns-lookup/">
-
-
-
     
-    <link href="https://fonts.googleapis.com/css?family=Lobster|Lato:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Lato:400,700&display=swap" media="print" onload="this.media='all'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Lato:400,700&display=swap"></noscript>
     
     <title>Python Bulk Reverse DNS Lookup - Will Nye - The SEO Guy</title>
-    <meta name="description" content="This script performs a reverse DNS lookup against a list of IP addresses. I use it to determine genuine Googlebot requests for log file analysis.It takes an Excel file (.xslx) called logs.xslx and looks for IPs in a column called &amp;lsquo;ip&amp;rsquo;. Then it performs a reverse lookup on the unique values. It exports an Excel file called validated_logs.xslx which contains all of the data from logs.xslx, with an additional column called &amp;lsquo;dns&amp;rsquo; that lists the domain names." />
+    <meta name="description" content="This script performs a reverse DNS lookup against a list of IP addresses. I use it to determine genuine Googlebot requests for log file analysis.It takes an Excel file (.xslx) called logs.xslx with a sheet named &amp;lsquo;Sheet1&amp;rsquo; and looks for IPs in a column called ip. Then it performs a reverse lookup on the unique values. It exports an Excel file called validated_logs.xslx which contains all of the data from logs." />
     <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
     <script async src="https://cdn.ampproject.org/v0.js"></script>
     <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
@@ -34,14 +33,14 @@
 <meta property="og:url" content="https://www.williamnye.co.uk/python-bulk-reverse-dns-lookup/">
 <meta property="og:image" content="https://www.williamnye.co.uk/img/default.jpg">
 <meta property="og:site_name" content="Will Nye - The SEO Guy">
-<meta property="og:description" content="This script performs a reverse DNS lookup against a list of IP addresses. I use it to determine genuine Googlebot requests for log file analysis.It takes an Excel file (.xslx) called logs.xslx and looks for IPs in a column called &amp;lsquo;ip&amp;rsquo;. Then it performs a reverse lookup on the unique values. It exports an Excel file called validated_logs.xslx which contains all of the data from logs.xslx, with an additional column called &amp;lsquo;dns&amp;rsquo; that lists the domain names.">
+<meta property="og:description" content="This script performs a reverse DNS lookup against a list of IP addresses. I use it to determine genuine Googlebot requests for log file analysis.It takes an Excel file (.xslx) called logs.xslx with a sheet named &amp;lsquo;Sheet1&amp;rsquo; and looks for IPs in a column called ip. Then it performs a reverse lookup on the unique values. It exports an Excel file called validated_logs.xslx which contains all of the data from logs.">
 <meta property="og:locale" content="en_gb">
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="Will Nye - The SEO Guy">
 <meta name="twitter:url" content="https://www.williamnye.co.uk/python-bulk-reverse-dns-lookup/">
 <meta name="twitter:title" content="Python Bulk Reverse DNS Lookup - Will Nye">
-<meta name="twitter:description" content="This script performs a reverse DNS lookup against a list of IP addresses. I use it to determine genuine Googlebot requests for log file analysis.It takes an Excel file (.xslx) called logs.xslx and looks for IPs in a column called &amp;lsquo;ip&amp;rsquo;. Then it performs a reverse lookup on the unique values. It exports an Excel file called validated_logs.xslx which contains all of the data from logs.xslx, with an additional column called &amp;lsquo;dns&amp;rsquo; that lists the domain names.">
+<meta name="twitter:description" content="This script performs a reverse DNS lookup against a list of IP addresses. I use it to determine genuine Googlebot requests for log file analysis.It takes an Excel file (.xslx) called logs.xslx with a sheet named &amp;lsquo;Sheet1&amp;rsquo; and looks for IPs in a column called ip. Then it performs a reverse lookup on the unique values. It exports an Excel file called validated_logs.xslx which contains all of the data from logs.">
 <meta name="twitter:image" content="https://www.williamnye.co.uk/img/default.jpg">
 
 
@@ -128,37 +127,47 @@
 
   <div class="article-body"><p>This script performs a reverse DNS lookup against a list of IP addresses. I use it to determine genuine Googlebot requests for log file analysis.</p>
 
-<p>It takes an Excel file (.xslx) called logs.xslx and looks for IPs in a column called &lsquo;ip&rsquo;. Then it performs a reverse lookup on the unique values. It exports an Excel file called validated_logs.xslx which contains all of the data from logs.xslx, with an additional column called &lsquo;dns&rsquo; that lists the domain names.</p>
+<p>It takes an Excel file (.xslx) called logs.xslx with a sheet named &lsquo;Sheet1&rsquo; and looks for IPs in a column called ip. Then it performs a reverse lookup on the unique values. It exports an Excel file called validated_logs.xslx which contains all of the data from logs.xslx, with an additional column called &lsquo;dns&rsquo; that lists the domain names. If using a CSV, swap read_excel for read_csv as specified within the comments.</p>
 
-<pre><code>import pandas as pd
+<p>Anaconda comes with all the packages required to run this script. If you’re not using Anaconda, there are a few dependencies that need installing. See comments in code.</p>
+
+<pre><code>#pip install pandas
+import pandas as pd
+# pip install dnspython
 from dns import resolver,reversename
+# pip install xlrd, pip install xlsxwriter
 from pandas.io.excel import ExcelWriter
+import time 
+startTime = time.time()
 
-logs = pd.read_excel('logs.xlsx', sheet_name='Sheet1') #Import excel called logs.xlsx as dataframe
-logs_filtered = logs.drop_duplicates(['ip']) #ips from column called ip
+# Import excel called logs.xlsx as dataframe
+# if CSV change to pd.read_csv('logs.csv', error_bad_lines=False)
 
+logs = pd.read_excel('logs.xlsx', sheet_name='Sheet1') 
+
+# Create DF with dupliate ips filtered for check
+logs_filtered = logs.drop_duplicates(['ip']).copy() 
+
+# Evaluate DNS from filtered IP's
 def reverseDns(ip):
-    try:
-        rev_name = reversename.from_address(ip)
-        reversed_dns = str(resolver.query(rev_name,&quot;PTR&quot;)[0])
-        return(reversed_dns)
-    except:
-        return('N/A')
+  try: 
+    return str(resolver.query(reversename.from_address(ip), 'PTR')[0])
+  except: 
+    return 'N/A'
 
+# Create DNS column with the reverse IP DNS result 
 logs_filtered['dns'] = logs_filtered['ip'].apply(reverseDns)
 
-logs_merged = pd.merge(logs, logs_filtered[['ip','dns']], how='left', on=['ip'])
-
+# Merge DNS column to full logs matching IP
+logs_filtered = logs.merge(logs_filtered[['ip','dns']], how='left', on=['ip'])
 
 # output as Excel
-
-writer = ExcelWriter('validated_logs.xlsx')
-logs_merged.to_excel(writer,'Sheet1',index=False)
-
+writer = ExcelWriter('validated_logs.xlsx', engine='xlsxwriter', options={'strings_to_urls': False})
+logs_filtered.to_excel(writer,'Sheet1', index=False)
 writer.save()
 
-print('File Succesfully written as validated_logs.xlsx') 
-
+print('File Succesfully written as validated_logs.xlsx')
+print ('The script took {0} second !'.format(time.time() - startTime))
 </code></pre>
 </div>
 

@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
 <link href="https://cdn.ampproject.org" rel="preconnect" crossorigin>
 <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css?family=Lobster|Lato:400,700&display=swap" />
 <link rel="dns-prefetch" href="//www.google-analytics.com">
 <meta name="theme-color" content="#E91E63">
 <link rel="apple-touch-icon" sizes="120x120" href="/img/apple-touch-icon.png">
@@ -16,11 +17,9 @@
 <meta name="generator" content="Hugo 0.37" />
 <link rel="alternate" type="application/rss+xml" title="RSS" href="https://www.williamnye.co.uk/categories/technical/index.xml">
 <link rel="canonical" href="https://www.williamnye.co.uk/categories/technical/">
-
-
-
     
-    <link href="https://fonts.googleapis.com/css?family=Lobster|Lato:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Lato:400,700&display=swap" media="print" onload="this.media='all'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Lato:400,700&display=swap"></noscript>
     
     <title>Technical - Will Nye - The SEO Guy</title>
     <meta name="description" content="Sporadic SEO related ramblings from Will Nye. A Head of SEO based in London." />
@@ -109,7 +108,7 @@
     </header>
   </div>
   <div class="article-body summary">This script performs a reverse DNS lookup against a list of IP addresses. I use it to determine genuine Googlebot requests for log file analysis.
-It takes an Excel file (.xslx) called logs.xslx and looks for IPs in a column called &lsquo;ip&rsquo;. Then it performs a reverse lookup on the unique values. It exports an Excel file called validated_logs.xslx which contains all of the data from logs.xslx, with an additional column called &lsquo;dns&rsquo; that lists the domain names.</div>
+It takes an Excel file (.xslx) called logs.xslx with a sheet named &lsquo;Sheet1&rsquo; and looks for IPs in a column called ip. Then it performs a reverse lookup on the unique values. It exports an Excel file called validated_logs.xslx which contains all of the data from logs.</div>
   <footer class="readmore"><a href="https://www.williamnye.co.uk/python-bulk-reverse-dns-lookup/">READ MORE</a></footer>
 </article>
 </li><li><article class="li article-a3cb6ce09ad493823ec32b5976b78971">

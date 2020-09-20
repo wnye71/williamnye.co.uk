@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
 <link href="https://cdn.ampproject.org" rel="preconnect" crossorigin>
 <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css?family=Lobster|Lato:400,700&display=swap" />
 <link rel="dns-prefetch" href="//www.google-analytics.com">
 <meta name="theme-color" content="#E91E63">
 <link rel="apple-touch-icon" sizes="120x120" href="/img/apple-touch-icon.png">
@@ -16,11 +17,9 @@
 <meta name="generator" content="Hugo 0.37" />
 
 <link rel="canonical" href="https://www.williamnye.co.uk/hugo-webp-images-with-fallback/">
-
-
-
     
-    <link href="https://fonts.googleapis.com/css?family=Lobster|Lato:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Lato:400,700&display=swap" media="print" onload="this.media='all'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Lato:400,700&display=swap"></noscript>
     
     <title>Hugo WebP Images with Fallback - Will Nye - The SEO Guy</title>
     <meta name="description" content="Last year I moved this blog from WordPress to Hugo, hosted on Netlify. As a part of this move, I wanted to make the site as fast as possible and made a number of improvements, including adding in support for WebP images.This can be achieved with Hugo by creating the following shortcode:{{ $image := .Params.src }} {{ $type_arr := split $image &amp;quot;.&amp;quot; }} {{ $srcbase := index $type_arr 0 }} {{ $srcext := index $type_arr 1 }} {{ $." />

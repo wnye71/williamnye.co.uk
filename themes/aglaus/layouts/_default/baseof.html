@@ -5,7 +5,8 @@
     {{ with .Site.Params.googlefonts }}
     <link href="{{ . }}" rel="stylesheet">
     {{ else }}
-    <link href="https://fonts.googleapis.com/css?family=Lobster|Lato:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Lato:400,700&display=swap" media="print" onload="this.media='all'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Lato:400,700&display=swap"></noscript>
     {{ end }}
     <title>{{ block "title" . }}{{ end }}{{ .Site.Title }}</title>
     <meta name="description" content="{{if .Summary}}{{ replaceRE "\n" "" (.Description | default .Summary) }}{{else}}{{ $.Site.Params.description }}{{end}}" />
